@@ -1,0 +1,14 @@
+{
+	"category" : "RE2018-Garp-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Garpable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

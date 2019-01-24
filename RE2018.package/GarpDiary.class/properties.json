@@ -1,0 +1,14 @@
+{
+	"category" : "RE2018-Garp",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GarpDiary",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

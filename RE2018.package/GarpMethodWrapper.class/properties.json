@@ -1,0 +1,16 @@
+{
+	"category" : "RE2018-Garp",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ClassWrappers",
+		"NestingLevel",
+		"ObjectWrappers" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"targetObject" ],
+	"name" : "GarpMethodWrapper",
+	"pools" : [
+		 ],
+	"super" : "MwMethodWrapper",
+	"type" : "normal" }

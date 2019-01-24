@@ -1,0 +1,14 @@
+{
+	"category" : "RE2018-Garp",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 1/19/2019 15:50",
+	"instvars" : [
+		 ],
+	"name" : "GarpStatus",
+	"pools" : [
+		 ],
+	"super" : "DynamicVariable",
+	"type" : "normal" }

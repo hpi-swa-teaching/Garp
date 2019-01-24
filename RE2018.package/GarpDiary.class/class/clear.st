@@ -1,0 +1,4 @@
+accessing
+clear
+
+	garpsDiary removeAll

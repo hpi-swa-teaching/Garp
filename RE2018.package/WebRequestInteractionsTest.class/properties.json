@@ -1,0 +1,14 @@
+{
+	"category" : "RE2018-Garp",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WebRequestInteractionsTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

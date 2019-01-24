@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"countAllInstances" : "jb 11/15/2018 12:00",
+		"decreaseNesting" : "jb 1/14/2019 15:48",
+		"increaseNesting" : "jb 1/14/2019 15:47",
+		"initialize" : "jb 1/14/2019 15:49",
+		"nestingLevel" : "jb 1/14/2019 15:48",
+		"ungarp" : "jb 11/15/2018 11:20",
+		"unwrapClass:" : "jb 11/15/2018 12:02",
+		"unwrapObject:" : "jb 12/9/2018 17:52",
+		"wrapClass:" : "jb 1/15/2019 19:18",
+		"wrapClass:in:" : "jb 1/6/2019 18:10",
+		"wrapObject:" : "jb 12/9/2018 17:51",
+		"wrapObject:in:" : "jb 1/6/2019 18:13" },
+	"instance" : {
+		"currentIndent" : "jb 1/19/2019 15:55",
+		"recordIncomingFor:withArguments:from:" : "jb 1/20/2019 13:22",
+		"recordOutgoingAtContextStep:" : "jb 1/20/2019 13:07",
+		"shouldWrap:" : "jb 1/20/2019 11:42",
+		"targetObject:" : "jb 12/9/2018 17:48",
+		"valueWithReceiver:arguments:" : "jb 1/20/2019 11:46" } }

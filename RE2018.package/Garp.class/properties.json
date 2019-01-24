@@ -1,0 +1,14 @@
+{
+	"category" : "RE2018-Garp",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "Garp",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
