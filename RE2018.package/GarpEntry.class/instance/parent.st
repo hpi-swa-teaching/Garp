@@ -1,4 +1,4 @@
 as yet unclassified
-clear
+parent
 
-	self install
+	^ parent

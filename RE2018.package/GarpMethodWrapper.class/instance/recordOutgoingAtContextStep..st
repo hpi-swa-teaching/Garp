@@ -12,10 +12,13 @@ recordOutgoingAtContextStep: aContext
 			arguments isEmpty 
 				ifTrue: [ argumentsString := '' ]
 				ifFalse: [ argumentsString := ' with arguments ', arguments asString ].
-			garpsDiary add: 
-				self currentIndent,
-				'OUT: ', aContext peekMessageSendReceiver,
-				' >> ', aContext peekMessageSendSelector,
-				argumentsString.
+
+			GarpDiary
+				add: 
+					'OUT: ', aContext peekMessageSendReceiver,
+					'>>', aContext peekMessageSendSelector,
+					argumentsString
+				atLevel:
+					self class nestingLevel.
 		].
 	].

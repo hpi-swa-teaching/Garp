@@ -1,4 +1,4 @@
 as yet unclassified
-clear
+value
 
-	self install
+	^ value

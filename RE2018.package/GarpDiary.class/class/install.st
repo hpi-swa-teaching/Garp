@@ -1,4 +1,10 @@
-installing
+as yet unclassified
 install
 
-	Smalltalk at: #garpsDiary put: OrderedCollection new.
+	| rootEntry |
+	rootEntry := GarpEntry new
+		parent: nil;
+		value: 'root'.
+	Root := rootEntry.
+	EntryStack := Stack new.
+	EntryStack push: rootEntry.

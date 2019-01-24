@@ -3,12 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"EntryStack",
-		"Root" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "GarpDiary",
+	"name" : "GarpListDiary",
 	"pools" : [
 		 ],
 	"super" : "Model",

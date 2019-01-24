@@ -10,11 +10,13 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 		Transcript show: self clientMethod.
 		self recordIncomingFor: anObject withArguments: anArrayOfObjects from: thisContext sender sender.
 		"simulate the wrapped method, recording message sends"
+		self class increaseNesting.
 		thisContext runSimulated: [
 			self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects.
 		] contextAtEachStep: [
 			:context | self recordOutgoingAtContextStep: context.
 		].
+		self class decreaseNesting.
 	].
 	
 	"actually execute the target method now"

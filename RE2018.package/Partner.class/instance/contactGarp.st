@@ -18,4 +18,4 @@ contactGarp
 	"GarpMethodWrapper unwrapClass: Garp."
 	garp ungarp.
 	"GarpMethodWrapper unwrapObject: garp."
-	GarpDiary display; clear.
+	GarpDiary display.

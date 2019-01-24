@@ -11,4 +11,3 @@ run
 	"(canvas future: 200) ungarp."
 	(aMorph future: 200) delete.
 	(GarpDiary future: 250) display.
-	(GarpDiary future: 250) clear.

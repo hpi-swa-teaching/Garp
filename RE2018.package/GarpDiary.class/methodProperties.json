@@ -1,8 +1,13 @@
 {
 	"class" : {
-		"clear" : "jb 1/7/2019 13:54",
-		"display" : "jb 1/7/2019 13:59",
-		"install" : "jb 1/7/2019 13:48",
-		"list" : "jb 1/7/2019 13:58" },
+		"add:atLevel:" : "jb 1/24/2019 15:47",
+		"childrenOf:" : "jb 1/24/2019 15:34",
+		"clear" : "jb 1/24/2019 15:02",
+		"display" : "jb 1/24/2019 15:35",
+		"hasChildren:" : "jb 1/24/2019 15:34",
+		"initialize" : "jb 1/24/2019 14:45",
+		"install" : "jb 1/24/2019 14:45",
+		"roots" : "jb 1/24/2019 15:04",
+		"valueOf:" : "jb 1/24/2019 15:35" },
 	"instance" : {
 		 } }

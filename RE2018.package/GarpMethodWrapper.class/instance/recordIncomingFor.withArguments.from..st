@@ -7,10 +7,16 @@ recordIncomingFor: anObject withArguments: anArrayOfObjects from: aSender
 		anArrayOfObjects isEmpty 
 			ifTrue: [ argumentsString := '' ]
 			ifFalse: [ argumentsString := ' with arguments ', anArrayOfObjects asString ].
-		garpsDiary add: 
+		GarpDiary
+			add:
+				'IN: from ', aSender,
+				' message ', anObject class, '>>', self clientMethod selector, 				argumentsString
+			atLevel:
+				self class nestingLevel.
+
+		"GarpListDiary add: 
 			self currentIndent,
-			'IN: to ', anObject class,
-			' >> ', self clientMethod selector,
-			argumentsString,
-			' from ', aSender.
+			'IN: from ', aSender,
+			' message ', anObject class, '>>', self clientMethod selector,
+			argumentsString."
 	].
