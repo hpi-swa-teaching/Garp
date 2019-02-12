@@ -4,7 +4,6 @@
 		 ],
 	"classvars" : [
 		"ClassWrappers",
-		"NestingLevel",
 		"ObjectWrappers" ],
 	"commentStamp" : "",
 	"instvars" : [

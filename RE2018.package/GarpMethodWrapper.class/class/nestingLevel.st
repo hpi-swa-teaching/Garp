@@ -1,4 +1,0 @@
-stats
-nestingLevel
-
-	^ NestingLevel

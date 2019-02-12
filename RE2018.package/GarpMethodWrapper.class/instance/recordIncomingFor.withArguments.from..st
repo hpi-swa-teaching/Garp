@@ -12,11 +12,5 @@ recordIncomingFor: anObject withArguments: anArrayOfObjects from: aSender
 				'IN: from ', aSender,
 				' message ', anObject class, '>>', self clientMethod selector, 				argumentsString
 			atLevel:
-				self class nestingLevel.
-
-		"GarpListDiary add: 
-			self currentIndent,
-			'IN: from ', aSender,
-			' message ', anObject class, '>>', self clientMethod selector,
-			argumentsString."
+				GarpNestingLevel value.
 	].

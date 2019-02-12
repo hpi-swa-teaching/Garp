@@ -19,6 +19,6 @@ recordOutgoingAtContextStep: aContext
 					'>>', aContext peekMessageSendSelector,
 					argumentsString
 				atLevel:
-					self class nestingLevel.
+					GarpNestingLevel value.
 		].
 	].
