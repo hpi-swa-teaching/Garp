@@ -6,5 +6,5 @@ run
 	test setUp.
 	test testGarpingWithMailBoxSynchronization.
 	test tearDown.
-	GarpDiary display.
+	GarpDiary display; clear.
 	

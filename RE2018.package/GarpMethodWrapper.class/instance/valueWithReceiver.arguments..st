@@ -7,7 +7,6 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 	self class increaseNesting.
 	(self shouldWrap: anObject) ifTrue: [
 		"record incoming messages that activate the wrapped method"
-		Transcript show: self clientMethod.
 		self recordIncomingFor: anObject withArguments: anArrayOfObjects from: thisContext sender sender.
 		"simulate the wrapped method, recording message sends"
 		self class increaseNesting.
