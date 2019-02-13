@@ -1,4 +1,4 @@
-as yet unclassified
+treestructure
 addChild: aChild
 
 	children add: aChild

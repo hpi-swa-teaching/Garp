@@ -1,0 +1,4 @@
+displaying
+deselect
+
+	selected := false

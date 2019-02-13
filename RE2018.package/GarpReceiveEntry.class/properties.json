@@ -3,14 +3,15 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"EntryStack",
-		"Root",
-		"SelectedEntry" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GarpDiary",
+		"from",
+		"message",
+		"arguments",
+		"receiver" ],
+	"name" : "GarpReceiveEntry",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "GarpEntry",
 	"type" : "normal" }

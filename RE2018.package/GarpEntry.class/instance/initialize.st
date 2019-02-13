@@ -1,5 +1,6 @@
-as yet unclassified
+initialize-release
 initialize
 
 	super initialize.
-	children := OrderedCollection new.	
+	children := OrderedCollection new.
+	selected := false.

@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 value: aValue
 
 	value := aValue

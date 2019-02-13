@@ -12,7 +12,9 @@ display
 		roots: #roots;
 		getChildren: #childrenOf:;
 		hasChildren: #hasChildren:;
-		label: #valueOf:.
+		label: #valueOf:;
+		setSelected: #setSelectedEntry:;
+		getSelected: #getSelectedEntry.
 	windowSpec children add: treeSpec.
 	windowSpec extent: 300@300.
 	(builder build: windowSpec) openInWorld.

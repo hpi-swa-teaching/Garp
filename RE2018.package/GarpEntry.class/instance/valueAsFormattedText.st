@@ -1,0 +1,4 @@
+displaying
+valueAsFormattedText
+
+	^ value

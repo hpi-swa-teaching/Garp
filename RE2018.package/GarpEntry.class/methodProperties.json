@@ -4,9 +4,11 @@
 	"instance" : {
 		"addChild:" : "jb 1/24/2019 14:34",
 		"children" : "jb 1/24/2019 14:35",
+		"deselect" : "jb 2/12/2019 18:17",
 		"hasChildren" : "jb 1/24/2019 15:05",
-		"initialize" : "jb 1/24/2019 14:40",
+		"initialize" : "jb 2/12/2019 18:16",
 		"parent" : "jb 1/24/2019 14:33",
 		"parent:" : "jb 1/24/2019 14:34",
-		"value" : "jb 1/24/2019 14:34",
-		"value:" : "jb 1/24/2019 14:34" } }
+		"select" : "jb 2/12/2019 18:17",
+		"value:" : "jb 2/12/2019 16:48",
+		"valueAsFormattedText" : "jb 2/12/2019 18:19" } }
