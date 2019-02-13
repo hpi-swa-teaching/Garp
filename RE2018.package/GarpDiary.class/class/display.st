@@ -14,7 +14,9 @@ display
 		hasChildren: #hasChildren:;
 		label: #valueOf:;
 		setSelected: #setSelectedEntry:;
-		getSelected: #getSelectedEntry.
+		getSelected: #getSelectedEntry;
+		getSelectedPath: #getSelectedEntries;
+		setSelectedPath: #setSelectedEntries:.
 	windowSpec children add: treeSpec.
 	windowSpec extent: 300@300.
 	(builder build: windowSpec) openInWorld.

@@ -5,6 +5,7 @@
 	"classvars" : [
 		"EntryStack",
 		"Root",
+		"SelectedEntries",
 		"SelectedEntry" ],
 	"commentStamp" : "",
 	"instvars" : [

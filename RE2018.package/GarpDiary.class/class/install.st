@@ -8,4 +8,5 @@ install
 	Root := rootEntry.
 	EntryStack := Stack new.
 	EntryStack push: rootEntry.
-	SelectedEntry := rootEntry.
+	SelectedEntry := nil.
+	SelectedEntries := OrderedCollection new.
